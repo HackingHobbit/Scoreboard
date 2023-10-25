@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    
+    
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+    </style>
+
+  </head>
+  <body>
+    <div class="home">
+      <div class="scoreboard">
+        <div class="all-objects">
+          <div class="main-scoreboard">
+            <div class="guest">
+              <b class="board-title-home">HOME</b>
+              <div class="home-score">
+                <div class="background"></div>
+              </div>
+              <div class="add-points-btns-home">
+                <button class="plus-three-point" id="Home3" onclick="addToHome(3)">
+                  <div class="plus-three-point-child"></div>
+                  <div class="div">+3</div>
+                </button>
+                <button class="plus-two-point" id="Home2" onclick="addToHome(2)">
+                  <div class="div">+2</div>
+                  <div class="plus-three-point-child"></div>
+                </button>
+                <button class="plus-one-point" id="Home1" onclick="addToHome(1)">
+                  <div class="div">+1</div>
+                  <div class="plus-three-point-child"></div>
+                </button>
+              </div>
+              <p class="home-points-text" id="homeScore">0</p>
+            </div>
+            <div class="guest">
+              <b class="board-title-home">GUEST</b>
+              <div class="home-score">
+                <div class="background"></div>
+              </div>
+              <div class="add-points-btns-home">
+                <button class="plus-three-point" id="Guest3" onclick="addToGuest(3)">
+                  <div class="plus-three-point-child"></div>
+                  <div class="div">+3</div>
+                </button>
+                <button class="plus-two-point" id="Guest2" onclick="addToGuest(2)">
+                  <div class="div">+2</div>
+                  <div class="plus-three-point-child"></div>
+                </button>
+                <button class="plus-one-point" id="Guest1" onclick="addToGuest(1)">
+                  <div class="div">+1</div>
+                  <div class="plus-three-point-child"></div>
+                </button>
+              </div>
+              <p class="home-points-text" id="guestScore">0</p>
+            </div>
+          </div>
+          <button class="new-game" id="newGame" onclick="newGame()">
+            <div class="new-game-child"></div>
+            <div class="new-game1">New Game</div>
+          </button>
+        </div>
+      </div>
+      <b class="most-awesome-scoreboard">Most Awesome Scoreboard</b>
+    </div>
+  </body>
+  <script src="/index.js"></script>
+</html>

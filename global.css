@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-verdana: Verdana;
+    --font-cursed-timer-ulil: "Cursed Timer ULiL";
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-71xl: 90px;
+    --font-size-21xl: 40px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-crimson: #f94f6d;
+    --color-gray: #080001;
+    --color-lightsteelblue: #9aabd8;
+    --color-whitesmoke: #eee;
+  
+    /* Gaps */
+    --gap-5xl: 24px;
+  
+    /* Border radiuses */
+    --br-8xs: 5px;
+  }
+  
